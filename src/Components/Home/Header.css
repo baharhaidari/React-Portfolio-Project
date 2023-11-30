@@ -134,6 +134,10 @@ h3.profession {
 }
 
 @media screen and (max-width: 768px) {
+.home-content {
+  margin-top: -2rem;
+}
+  
   .homeSection {
     display: flex;
     flex-direction: column;
@@ -166,10 +170,6 @@ h3.profession {
     text-align: center;
     align-items: center;
   }
-
-  /* .home-image {
-    margin-top: 8rem;
-  } */
 
   .contents {
     padding: 0 7px;
