@@ -134,9 +134,9 @@ h3.profession {
 }
 
 @media screen and (max-width: 768px) {
-  .home-content {
+/*   .home-content {
     margin-top: 8rem;
-  }
+  } */
 
   .homeSection {
     display: flex;
