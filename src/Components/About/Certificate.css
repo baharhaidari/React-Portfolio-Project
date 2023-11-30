@@ -1,0 +1,93 @@
+.certificates {
+  margin: 8rem auto;
+  padding: 0px 70px;
+}
+
+.certificate {
+  text-align: center;
+}
+
+.certificate-image {
+  width: 26rem;
+  height: 18rem;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.certificate-title {
+  margin-top: 10px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.certificate-description {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.certificates .slick-dots {
+  position: absolute;
+  left: 50.45%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  background-color: #fff !important;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.slick-dots li.slick-active button {
+  background-color: var(--neon-color) !important;
+}
+
+.slick-dots li button:before {
+  font-size: 0 !important;
+}
+
+.certificates .slick-list {
+  height: 240px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .certificates {
+    margin-top: 2rem;
+    padding: 0 30px;
+  }
+
+  .certificates .slick-list {
+    height: 640px !important;
+  }
+
+  .certificates .slick-dots {
+    left: 51.6%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .certificate-image {
+    width: 330px;
+    height: 200px;
+  }
+
+  .certificates .slick-list {
+    height: 745px !important;
+  }
+
+  .certificate-title {
+    margin-bottom: 15px;
+  }
+}

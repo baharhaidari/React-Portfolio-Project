@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+
+.homeSection {
+  background: var(--first-bg-color);
+  color: var(--text-color);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  text-align: left;
+}
+
+.home-content h3 {
+  font-size: 2.6rem;
+}
+
+.home-content h1 {
+  font-size: 4.5rem;
+  font-family: "Sacramento", cursive;
+}
+
+h3.profession {
+  display: inline-block;
+}
+
+.typed-cursor {
+  font-size: 2.5rem;
+  color: var(--neon-color);
+}
+
+.home-content p {
+  font-size: 1.35rem;
+  margin: 2.4rem 0;
+  line-height: 1.2;
+}
+
+.contents {
+  max-width: 650px;
+}
+
+.btns {
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  color: var(--neon-color);
+  padding: 10px 20px;
+  border: 2px solid var(--button-border-color);
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+
+.btns:hover {
+  color: var(--neon-color);
+  border-color: var(--neon-color);
+}
+
+.btn-download {
+  margin-right: 1rem;
+}
+
+.btns .btn-icons {
+  margin-right: 0.6rem;
+}
+
+.profession {
+  color: var(--neon-color);
+}
+
+.homeSection .home-image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.homeSection .home-image img {
+  width: 50%;
+  border-radius: 50%;
+  transition: 0.4s;
+  animation: moveUpDown infinite 2.3s ease-in-out;
+  box-shadow: 0px 14px 14px rgba(0, 0, 0, 0.3);
+  border: 2px solid black;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .homeSection .btns {
+    padding: 0.8rem 0.9rem;
+  }
+
+  .btn-download {
+    margin-right: 0.7rem !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .homeSection {
+    height: 110vh;
+  }
+
+  .btns {
+    background-color: transparent;
+    color: var(--neon-color);
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 13.9px;
+    font-weight: bold;
+    margin-top: 0.4rem;
+  }
+
+  .btn-download {
+    margin-right: 0.5rem;
+  }
+
+  .homeSection .home-image {
+    margin-top: 14%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-content {
+    margin-top: 11rem;
+  }
+
+  .homeSection {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+
+  .homeSection .home-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-content h3 {
+    font-size: 1.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .home-content h1 {
+    font-size: 3.1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .home-content p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .buttons-containers {
+    text-align: center;
+    align-items: center;
+  }
+
+  /* .home-image {
+    margin-top: 8rem;
+  } */
+
+  .contents {
+    padding: 0 7px;
+  }
+
+  .btn-download {
+    margin-right: 1.75rem;
+    border-color: var(--neon-color);
+  }
+
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-18px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .homeSection .home-image img {
+    animation-duration: 2.6s;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .homeSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 50px;
+  }
+
+  .home-content {
+    margin-top: 10rem;
+  }
+
+  .home-content h1 {
+    font-size: 5.8rem;
+  }
+
+  .homeSection h3 {
+    font-size: 3.8rem;
+  }
+
+  .homeSection p {
+    font-size: 2.2rem;
+  }
+
+  .homeSection .home-image img {
+    width: 42%;
+  }
+
+  .homeSection .home-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btns {
+    width: 25rem;
+    height: 6rem;
+    font-size: 24px;
+  }
+}

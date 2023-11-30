@@ -1,0 +1,20 @@
+.pagination-container ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  max-width: 260px;
+}
+
+.pagination-container ul li {
+  font-size: 1.8rem;
+}
+
+.pagination-container ul li:hover {
+  cursor: pointer;
+}
+
+.active {
+  color: var(--neon-color);
+}

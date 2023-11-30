@@ -1,0 +1,227 @@
+{
+  "NAVBAR": {
+    "home": "Heim",
+    "about": "Um",
+    "skills": "Fähigkeiten",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+
+  "LANGUAGE_INPUT": {
+    "english": "English",
+    "spanish": "Spanish",
+    "german": "German"
+  },
+
+  "HEADER": {
+    "greet": "Hallo, ich bin",
+    "name": "Bahar Haidari",
+    "profession": "Ein Frontend Webentwickler",
+    "profession2": "Ein Spieleentwickler",
+    "desc": "mit einer Leidenschaft für die Erstellung atemberaubender Websites. Ich bin darauf spezialisiert, durch elegantes Design und nahtlose Funktionalität ansprechende Benutzererlebnisse zu schaffen. Willkommen in meinem Portfolio, wo Ästhetik auf Funktionalität trifft!",
+    "cv-button": "Herunterladen CV",
+    "contact-button": "Kontaktiere mich",
+    "image-alt": "Profilbild"
+  },
+
+  "ABOUT": {
+    "heading": "Über mich",
+
+    "fisrt-tab": "Um",
+    "second-tab": "Zeitleiste",
+    "third-tab": "Zertifikate",
+
+    "desc": "Ich bin Bahar, ein leidenschaftlicher Frontend-Webentwickler mit Fachkenntnissen in HTML, CSS, JavaScript und Frontend-Frameworks. Mit 1 Jahr Erfahrung bin ich auf die Erstellung optisch ansprechender und benutzerfreundlicher Websites spezialisiert. Mein Ziel ist es, außergewöhnliche Benutzererlebnisse zu bieten, indem ich Kreativität, sauberen Code und Best Practices kombiniere. Lassen Sie uns zusammenarbeiten und Ihr Webprojekt zum Leben erwecken!",
+
+    "Contact-info": [
+      {
+        "lable": "E-Mail-Adresse",
+        "info": "BaharHaidary18@gmail.com"
+      },
+
+      {
+        "lable": "Telefonnummer",
+        "info": "+93 702 73 84 17"
+      }
+    ],
+
+    "Hobbies-heading": "Meine Hobbies",
+    "hobbies": ["Spielen", "Sport", "Musik", "Reisen", "Einkaufen"],
+
+    "timeline": [
+      {
+        "startDate": "2022",
+        "endDate": "2023",
+        "title": "Certified of Algoritms and Data structure."
+      },
+
+      {
+        "startDate": "2022",
+        "endDate": "2023",
+        "title": "Studying full stack developmen."
+      },
+
+      {
+        "startDate": "2011",
+        "endDate": "2022",
+        "title": "High School Certified."
+      },
+
+      {
+        "startDate": "2015",
+        "endDate": "2017",
+        "title": "Certified of English class."
+      }
+    ],
+
+    "SEARCH": {
+      "label": "Suchen",
+      "placeholder": "Suchen"
+    },
+
+    "certificates": [
+      {
+        "imageAlt": "Englisches Zertifikatsbild",
+        "title": "Englisch"
+      },
+
+      {
+        "imageAlt": "Bild eines türkischen Zertifikats",
+        "title": "Türkisch"
+      },
+
+      {
+        "imageAlt": "HTML Zertifikatsbild",
+        "title": "HTML"
+      },
+
+      {
+        "imageAlt": "Bild eines türkischen Zertifikats",
+        "title": "Türkisch"
+      },
+
+      {
+        "imageAlt": "Bild eines türkischen Zertifikats",
+        "title": "Türkisch"
+      }
+    ]
+  },
+
+  "SKILLS": {
+    "heading": "Meine Fähigkeiten",
+
+    "TECHNICA_SKILLS_SUB_TITLE": "Technische Fähigkeiten",
+    "TECHNICA_SKILLS": [
+      { "skill": "HTML", "percentage": 95 },
+      { "skill": "CSS", "percentage": 85 },
+      { "skill": "Bootstrap", "percentage": 95 },
+      { "skill": "JavaScript", "percentage": 80 },
+      { "skill": "React", "percentage": 70 }
+    ],
+
+    "PERSONAL_SKILLS_SUB_TITLE": "Personal Skills",
+    "PERSONAL_SKILLS": [
+      { "skill": "Zusammenarbeit", "percentage": 90 },
+      { "skill": "Kreativität", "percentage": 85 },
+      { "skill": "Management", "percentage": 80 },
+      { "skill": "Lernen", "percentage": 85 },
+      { "skill": "Hobeln", "percentage": 85 }
+    ]
+  },
+
+  "PROJECTS": {
+    "heading": "Meine Projekte",
+
+    "all": "Teda",
+    "projectDetails": [
+      {
+        "id": 1,
+        "category": "Web Entwicklung",
+        "title": "Bit Dog",
+        "link": "https://baharhaidary.github.io/BitDog-project/",
+        "githubLink": "github.com/baharhaidari/perfume-shop"
+      },
+
+      {
+        "id": 2,
+        "category": "Spieleentwicklung",
+        "title": "Zahl Erraten",
+        "link": "https://baharhaidari.github.io/guess-number-game/",
+        "githubLink": "https://github.com/baharhaidari/guess-number-game.git"
+      },
+
+      {
+        "id": 3,
+        "category": "Spieleentwicklung",
+        "title": "Simon Spiel",
+        "link": " https://baharhaidari.github.io/simon-game/JS-challenge.html",
+        "githubLink": "https://github.com/baharhaidari/simon-game.git"
+      },
+
+      {
+        "id": 4,
+        "category": "Web Entwicklung",
+        "title": "Parfümerie",
+        "link": "https://perfume-shop-self.vercel.app/",
+        "githubLink": "https://github.com/baharhaidari/perfume-shop.git"
+      },
+
+      {
+        "id": 5,
+        "category": "Web Entwicklung",
+        "title": "CSS Portfolio",
+        "link": "https://baharhaidari.github.io/css-website/",
+        "githubLink": "https://github.com/baharhaidari/css-website.git"
+      }
+    ],
+
+    "search-input-lable": "Suchen",
+    "previous-lable": "Vorherige",
+    "next-lable": "Nächste",
+    "filter-label": "Filter",
+    "github-link-lable": "Enlace GitHub",
+    "demo": "Live-Demo",
+    "rate-label": "Rate"
+  },
+
+  "CONTACT": {
+    "heading": "Kontaktiere mich",
+    "first-name-label": "Ihr Vorname",
+    "last-name-label": "Ihr Nachname",
+    "email-address-label": "Deine E-Mail",
+    "email-subject-label": "E-Mail Betreff",
+    "message-area-label": "Ihre Nachricht",
+    "button-text": "Nachricht senden"
+  },
+
+  "FOOTER": {
+    "LINKS": {
+      "heading": "Links",
+      "links-data": [
+        {
+          "lable": "Code to Inspire",
+          "desc": "Besuchen Sie die Code to Inspire-Website",
+          "url": "https://codetoinspire.org"
+        },
+        {
+          "lable": "Fereshteh Forough",
+          "desc": "E-Mail senden",
+          "url": "mailto:fereshteh@codetoinspire.org"
+        },
+        {
+          "lable": "Ehsan Ehrari",
+          "desc": "E-Mail senden",
+          "url": "mailto:ehsan.ehrari@codetoinspire.org"
+        }
+      ]
+    },
+
+    "SOCIAL_MEDIA": {
+      "heading": "Folgen Sie mir in den sozialen Medien"
+    },
+
+    "FOOTER_TEXT": {
+      "copy-right-text": "Copyright © {{year}} Bahar Haidari | Alle Rechte vorbehalten."
+    }
+  }
+}
