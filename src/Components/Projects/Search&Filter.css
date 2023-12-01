@@ -99,7 +99,6 @@
     flex-direction: column;
     text-align: left;
     position: absolute;
-    margin-top: 90%;
     left: 3%;
     height: 30vh;
     background-color: var(--first-bg-color);
@@ -159,7 +158,6 @@
     flex-direction: column;
     text-align: left;
     position: absolute;
-    margin-top: 90%;
     left: 0;
     height: 30vh;
     background-color: var(--first-bg-color);
@@ -224,7 +222,6 @@
     flex-direction: column;
     text-align: left;
     position: absolute;
-    margin-top: 90%;
     left: 10rem;
     height: 30vh;
     background-color: var(--first-bg-color);
