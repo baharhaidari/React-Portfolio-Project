@@ -105,6 +105,10 @@ h3.profession {
   .btn-download {
     margin-right: 0.5rem !important;
   }
+
+    .btns .btn-icons {
+    margin-right: 0.3rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -127,9 +131,11 @@ h3.profession {
   }
 
   .homeSection .home-image {
-   
     margin-top: 3rem;
-  
+  }
+
+    .btns .btn-icons {
+    margin-right: 0.3rem;
   }
 }
 
